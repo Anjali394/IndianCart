@@ -29,8 +29,9 @@ h3 { font-size:12px; line-height:14px; text-transform: uppercase; color:#000; }
 h4 { font-size:12px; line-height:14px; text-transform: uppercase; color:#000; }
 
 
-h1#logo { font-size:0; line-height:0; width:156px; height:64px; float:left; }
-h1#logo a{ display:block; height:64px; text-indent: -4000px; background:url(images/logo.gif); }
+h1#cartcap { font-size:0; line-height:0; width:122px; 
+height:64px; float:left; }
+h1#cartcap a{ display:block; height:64px; text-indent: -4000px; background:url(images/cartcap.GIF); }
 
 .shell { width:960px; margin:0 auto; padding:10px; background:#fff; }
 
@@ -69,7 +70,12 @@ a.bul { background:url(images/bul.gif) no-repeat 0 center; padding-left:10px;}
 .search select.field { width:212px; }
 .search select.small-field { width:50px; }
 
-.search-submit { width:70px; background:#8b0000; border:0; color:#fff; height:27px; display:block; line-height:26px; cursor:pointer; margin:12px 0 10px 0;}
+.search-submit { border-style: none;
+    border-color: inherit;
+    border-width: 0;
+    width:70px; background:#8b0000; color:#fff; height:59px; 
+    display:block; line-height:26px; cursor:pointer; margin:12px 0 10px 0;
+}
 
 .categories { min-height:383px; }
 .categories ul { list-style-type: none; font-size:13px;}

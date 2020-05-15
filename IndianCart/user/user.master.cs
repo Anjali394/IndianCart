@@ -4,7 +4,6 @@ using System.Linq;
 using System.Web;
 using System.Web.UI;
 using System.Web.UI.WebControls;
-
 using System.Data;
 using System.Data.SqlClient;
 
@@ -16,7 +15,7 @@ public partial class user_user : System.Web.UI.MasterPage
     int tot = 0;
     int totcount = 0;
     SqlConnection con = new SqlConnection(@"Data Source=.\SQLEXPRESS;AttachDbFilename=C:\Users\Hariom\Documents\Visual Studio 2010\WebSites\WebSite1\App_Data\Database.mdf;Integrated Security=True;User Instance=True");
-
+    
     protected void Page_Load(object sender, EventArgs e)
     {
         con.Open();
@@ -48,16 +47,16 @@ public partial class user_user : System.Web.UI.MasterPage
                 }
 
 
-
+                
                 tot = tot + (Convert.ToInt32(a[2].ToString()) * Convert.ToInt32(a[3].ToString()));
                 totcount = totcount + 1;
                 carttotitem.Text = totcount.ToString();
                 carttotprice.Text = tot.ToString();
             }
+            
 
-
-
-
+            
+            
 
 
         }
