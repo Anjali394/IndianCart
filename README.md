@@ -1,3 +1,2 @@
 # IndianCart
-Online Shopping Website
-This Website is developed on ASP.Net framework using visual studio tool.
+This is a Online shopping website which is developed on ASP.Net framework using visual studio tool.
